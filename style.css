@@ -152,6 +152,8 @@ body{
     white-space: nowrap;
     font-size: 12px;
     color:#00acee;
+    text-decoration: none;
+    display: block;
     cursor: pointer;
 }
 
@@ -561,4 +563,73 @@ a.bold{
 .footer-item-link:hover{
     text-decoration: underline;
 
+}
+
+
+
+
+.m-t-150{
+    margin-top: 150px;
+}
+.form-login{
+    padding: 30px 0;
+}
+.form-login h3{
+   font-size: 24px;
+   margin-bottom: 10px;
+
+}
+.form-group{
+
+}
+.form-group label{
+display: block;
+font-size: 13px;
+margin-bottom: 10px;
+margin-top: 20px;
+}
+.form-group .input-login{
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    height: 38px;
+    margin: 0;
+    padding: 0 4px;
+    border: 1px solid #ccd5db;
+    border-radius: 2px;
+    background: #f8fafc;
+    outline: 0;
+
+}
+.form-group span label{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.form-login a{
+    color: #00acee;
+    font-size: 13px;
+}
+
+.list-item{
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.list-item .item-link{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px;
+    display: inline-block;
+}
+.list-item .item-link:hover{
+    color: #00acee;
 }
